@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/*------------------------------------------------------special rules*/
+/*------------------------------------------------------general rules*/
 
 h1,h2,h3,h4 {
     margin: 0;
@@ -23,6 +23,25 @@ h1,h2,h3,h4 {
 .center-content {
     text-align: center;
 }
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
 
 /*-------------------------------------------------------header*/
 
@@ -189,4 +208,128 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*----------------------------------------three reasons*/
+
+.three-reasons {
+    background-color: #fff;
+}
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/*---------------------------personal section*/
+
+.personal-section {
+    background-color: #f4f4f4;
+}
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/*-----------------------------------resume*/
+
+.resume-icon {
+    font-size: 26px;
+    color: #9b59b6;
+}
+
+/*-----------------------------------progress*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/*----------------------------------------work history*/
+
+.timeline-item {
+    position: relative;
+    padding: 4em 2em 0em 2em;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 2.4em;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #000;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
