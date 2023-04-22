@@ -98,6 +98,14 @@ header {
     background-color: #9b59b6;
 }
 
+.nav-item-interests {
+    background-color: #e74c3c;
+}
+
+.nav-item-github {
+    background-color: #1c4a6c;
+}
+
 .nav-item-contact {
     background-color: #3498db;
 }
@@ -335,6 +343,12 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*--------------------------------interests section*/
+
+div#map {
+    min-height: 360px;
 }
 
 /*--------------------------------contact section*/
